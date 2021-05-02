@@ -1,0 +1,16 @@
+2021-04-30T19:17:07+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 4096 bytes) in C:\xampp\htdocs\Renome\wp-content\themes\Divi\includes\builder\class-et-builder-element.php on line 896
+
+2021-04-30T23:52:02+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:52:38+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:52:45+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:53:05+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:53:05+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:53:05+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+
+2021-04-30T23:53:05+00:00 CRITICAL syntax error, unexpected identifier "limit", expecting "]" in C:\xampp\htdocs\Renome\wp-content\plugins\woocommerce\templates\archive-product.php on line 1
+

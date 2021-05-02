@@ -1,0 +1,134 @@
+2021-05-02T15:09:04+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236469)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236469, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings(false)
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\includes\plugin.php(701): do_action('activate_pie-re...', false)
+#17 C:\xampp\htdocs\Renome\wp-admin\plugins.php(58): activate_plugin('pie-register/pi...', 'http://localhos...', false)
+#18 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
+2021-05-02T15:09:16+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236470)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236470, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings('')
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\plugins.php(193): do_action('activate_pie-re...')
+#17 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
+2021-05-02T15:09:16+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236471)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236471, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings('')
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\plugins.php(193): do_action('activate_pie-re...')
+#17 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
+2021-05-02T15:10:06+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236472)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236472, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings(false)
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\includes\plugin.php(701): do_action('activate_pie-re...', false)
+#17 C:\xampp\htdocs\Renome\wp-admin\plugins.php(58): activate_plugin('pie-register/pi...', 'http://localhos...', false)
+#18 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
+2021-05-02T15:10:18+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236473)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236473, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings('')
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\plugins.php(193): do_action('activate_pie-re...')
+#17 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
+2021-05-02T15:10:25+00:00 CRITICAL Uncaught Error: Non-static method PieReg_Base::pr_error_log() cannot be called statically in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php:313
+Stack trace:
+#0 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\pie-register.php(6352): pieOutputLoginForm()
+#1 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(343): PieRegister->showLoginForm('', '', 'pie_register_lo...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\xampp\htdocs\Renome\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(pie_re...', 'do_shortcode_ta...', '[pie_register_l...')
+#4 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): do_shortcode('[pie_register_l...')
+#5 C:\xampp\htdocs\Renome\wp-includes\plugin.php(212): WP_Hook->apply_filters('[pie_register_l...', Array)
+#6 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\builders\indexable-link-builder.php(103): apply_filters('the_content', '[pie_register_l...')
+#7 C:\xampp\htdocs\Renome\wp-content\plugins\wordpress-seo\src\integrations\watchers\indexable-post-watcher.php(205): Yoast\WP\SEO\Builders\Indexable_Link_Builder->build(Object(Yoast\WP\SEO\Models\Indexable), '[pie_register_l...')
+#8 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(294): Yoast\WP\SEO\Integrations\Watchers\Indexable_Post_Watcher->build_indexable(236474)
+#9 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\Renome\wp-includes\post.php(4395): do_action('wp_insert_post', 236474, Object(WP_Post), false)
+#12 C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\classes\base.php(197): wp_insert_post(Array)
+#13 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(292): PieReg_Base->install_settings('')
+#14 C:\xampp\htdocs\Renome\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\Renome\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\Renome\wp-admin\plugins.php(193): do_action('activate_pie-re...')
+#17 {main}
+  thrown in C:\xampp\htdocs\Renome\wp-content\plugins\pie-register\login_form.php on line 313
+
